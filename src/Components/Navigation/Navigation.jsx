@@ -9,7 +9,7 @@ function Navigation(props) {
     <>
       <nav className="nav">
         <Logo />
-        <div className="nav__nav-links collapsed">
+        <div className="nav__nav-links">
           <NavLink className="nav__nav-link" to="/">
             Home
           </NavLink>

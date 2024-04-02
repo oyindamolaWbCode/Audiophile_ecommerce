@@ -1,0 +1,44 @@
+.home-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  background-color: #0e0e0e;
+  padding: 0 121px 0 165px;
+}
+
+.home-content {
+  margin-top: 9.2rem;
+}
+
+.product-title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.new-product {
+  text-transform: uppercase;
+  color: #2e2e2e;
+  font-weight: lighter;
+  letter-spacing: 0.56em;
+  margin-bottom: 1rem;
+}
+
+.headphone-paragragh {
+  color: #fff;
+  max-width: 349px;
+  opacity: 0.75;
+  margin: 24px 0 40px 0;
+}
+
+.product_view {
+  background-color: #d87d47;
+  color: rgb(216, 214, 214);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.home__headset {
+  max-width: 700px;
+  /* max-height: 400px; */
+}

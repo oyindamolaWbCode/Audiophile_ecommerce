@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <header>
           <Navigation />
-          <Cart />
+          {/* <Cart /> */}
         </header>
         <main>
           <Routes>
