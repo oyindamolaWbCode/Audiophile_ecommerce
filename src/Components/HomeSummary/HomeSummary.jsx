@@ -1,5 +1,5 @@
 import React from "react";
-import headset from "../../assets/hero.jpeg";
+import headset from "../../assets/Images/hero.jpeg";
 import "./homesummary.css";
 
 function HomeSummary(props) {

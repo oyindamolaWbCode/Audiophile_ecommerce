@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.css";
-import icon from "../../assets/icon-arrow-right.svg";
+import icon from "../../assets/Icons/icon-arrow-right.svg";
 import { Link } from "react-router-dom";
 
 function Card(props) {
@@ -8,7 +8,7 @@ function Card(props) {
 
   return (
     <div className="card-category">
-      <img src={imgpath} alt="" className="card-category-image" />
+      <img src={imgpath} alt="image" className="card-category-image" />
       <h5 className="card-category-text">{title}</h5>
       <div className="card-category-link-container">
         <Link to="" className="card-category-link">

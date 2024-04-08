@@ -7,15 +7,15 @@ function Cards(style) {
     <div className="cards-category" style={style}>
       <Card
         title="headphone"
-        imgpath="../../assets/image-category-thumbnail-headphones.png"
+        imgpath="../../assets/Images/image-category-thumbnail-headphones.png"
       />
       <Card
         title="speaker"
-        imgpath="../../assets/image-category-thumbnail-speakers.png"
+        imgpath="../../assets/Images/image-category-thumbnail-speakers.png"
       />
       <Card
         title="earphone"
-        imgpath="../../assets/image-category-thumbnail-earphones.png"
+        imgpath="../../assets/Images/image-category-thumbnail-earphones.png"
       />
     </div>
   );
