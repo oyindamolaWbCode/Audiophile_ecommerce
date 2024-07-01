@@ -1,0 +1,26 @@
+.Xz_container {
+  background-image: url("../../assets/Images/image-speaker-zx7.3d4940e8.jpg");
+  margin-top: 50px;
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  border-radius: 10px;
+}
+
+.Xz-content {
+  padding: 50px 80px;
+}
+
+.Xz-content h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.Xz-content button {
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,34 @@
+.Xearphone {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  height: 50vh;
+  column-gap: 10px;
+}
+
+.earpods_details {
+  background-color: #eeeeee;
+  padding: 80px;
+}
+
+.earpods_details h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.Xearphone .product_view {
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.product_view:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.earphone {
+  background: url("../../assets/Images/download.jpg");
+}

@@ -1,0 +1,24 @@
+.gear_container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.gear_image {
+  background: url("../../assets/Images/image-best-gear.jpg");
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.gear_details {
+  padding-top: 100px;
+}
+
+.gear_details h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
