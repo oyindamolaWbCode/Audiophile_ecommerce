@@ -14,7 +14,7 @@ function Card(props) {
         <Link to="" className="card-category-link">
           Shop
         </Link>
-        <img className="card-category-icon" src={icon} />
+        <img src={icon} className="card-category-icon" />
       </div>
     </div>
   );
