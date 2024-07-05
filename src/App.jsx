@@ -7,6 +7,9 @@ import Cart from "./Components/Cart/Cart";
 import Footer from "./Components/Footer/Footer";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Speakers from "./Components/Speaker/Speakers";
+import Headphones from "./Components/HeadPhones/Headphones";
+import Earphones from "./Components/Earphones/Earphones";
 
 function App() {
   return (
@@ -19,7 +22,11 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/speakers" element={<Speakers />} />
+            <Route path="/headphones" element={<Headphones />} />
+            <Route path="/earphones" element={<Earphones />} />
             <Route path="/checkoutpage" element={<CheckoutPage />} />
+
             <Route path="/productdetailpage" element={<ProductDetailPage />} />
             <Route path="/categorypage" element={<CategoryPage />} />
           </Routes>

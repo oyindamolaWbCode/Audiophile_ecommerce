@@ -13,7 +13,7 @@ function Navigation(props) {
           <NavLink className="nav__nav-link" to="/">
             Home
           </NavLink>
-          <NavLink className="nav__nav-link" to="headphones">
+          <NavLink className="nav__nav-link" to="/headphones">
             Headphones
           </NavLink>
           <NavLink className="nav__nav-link" to="/speakers">

@@ -7,9 +7,9 @@ import earphoneImg from "../../assets/Images/image-category-thumbnail-earphones.
 function Cards(style) {
   return (
     <div className="cards-category" style={style}>
-      <Card title="headphone" imgpath={headphoneImg} />
-      <Card title="speaker" imgpath={speakerImg} />
-      <Card title="earphone" imgpath={earphoneImg} />
+      <Card title="headphone" imgpath={headphoneImg} link="/headphones" />
+      <Card title="speaker" imgpath={speakerImg} link="/speakers" />
+      <Card title="earphone" imgpath={earphoneImg} link="/earphones" />
     </div>
   );
 }
