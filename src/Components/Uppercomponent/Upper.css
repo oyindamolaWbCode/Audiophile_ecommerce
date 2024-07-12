@@ -1,0 +1,40 @@
+.upper-components {
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  padding: 0 121px 0 165px;
+  margin-top: 50px;
+  column-gap: 50px;
+}
+
+.upperImgs {
+  width: 100%;
+  height: 100%;
+}
+
+.upper-components .new-product {
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 0.56em;
+  margin-bottom: 1rem;
+}
+
+.product_view {
+  background-color: #d87d47;
+  color: rgb(216, 214, 214);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.product-title {
+  font-size: 3rem;
+  color: black;
+}
+
+.product-paragragh {
+  color: black;
+  max-width: 349px;
+  opacity: 0.75;
+  margin: 24px 0 40px 0;
+}

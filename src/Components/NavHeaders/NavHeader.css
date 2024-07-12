@@ -1,7 +1,11 @@
 .center-it {
   background-color: black;
+  height: 45vh;
   color: white;
   font-size: bolder;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
