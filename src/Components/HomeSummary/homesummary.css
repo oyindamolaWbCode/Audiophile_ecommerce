@@ -10,14 +10,14 @@
   margin-top: 9.2rem;
 }
 
-.product-title {
+.product-title-header {
   font-size: 3rem;
   color: #fff;
 }
 
 .new-product {
   text-transform: uppercase;
-  color: #2e2e2e;
+  color: #515050;
   font-weight: lighter;
   letter-spacing: 0.56em;
   margin-bottom: 1rem;
