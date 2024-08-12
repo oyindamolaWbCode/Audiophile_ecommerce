@@ -1,3 +1,7 @@
 .headphones_container {
   background-color: white;
 }
+
+.reverse-flex .upper-components {
+  flex-direction: row-reverse;
+}

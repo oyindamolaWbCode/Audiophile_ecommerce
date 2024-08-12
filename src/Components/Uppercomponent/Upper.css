@@ -1,12 +1,16 @@
 .upper-components {
-  display: grid;
-  grid-template-columns: repeat(2, 6fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 6fr); */
+  display: flex;
   /* height: 600px; */
   padding: 0 121px 0 165px;
   margin: 50px 0px;
   column-gap: 50px;
 }
 
+.reverse-flex .upper-components {
+  flex-direction: row-reverse;
+}
 /* .upper-details {
   margin-top: 70px;
 } */
