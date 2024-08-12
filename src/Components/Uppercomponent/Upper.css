@@ -7,9 +7,9 @@
   column-gap: 50px;
 }
 
-.upper-details {
+/* .upper-details {
   margin-top: 70px;
-}
+} */
 
 .upperImgs {
   width: 100%;
@@ -40,7 +40,7 @@
 
 .product-paragragh {
   color: black;
-  max-width: 349px;
+  /* max-width: 349px; */
   opacity: 0.75;
   margin: 24px 0 40px 0;
 }
