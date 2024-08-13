@@ -15,32 +15,39 @@ const Headphones = () => {
         UpperSubTitle="XX99 MARK II HEADPHONES"
         UpperParagraph="The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound."
       /> */}
-      {HeadphoneFeatures.headphones.map((headphone, index) => (
-        <div
-          className={`index ${index === 1 ? "reverse-flex" : ""}`}
-          key={index}
-        >
-          <div className="upper-components">
-            <img
-              src={headphone.image.product}
-              // src={headphoneImg}
-              alt="componentsImages"
-              className="upperImgs"
-            />
-            <div className="upper-details">
-              <h3 className="new-product">NEW PRODUCT</h3>
-              <h1 className="product-title">
-                {headphone.shortName.toUpperCase()}
-              </h1>
-              <h1 className="product-title">
-                {headphone.category.toUpperCase()}
-              </h1>
-              <p className="product-paragragh">{headphone.description}</p>
-              <button className="product_view">See Product</button>
+      {HeadphoneFeatures.headphones.map(
+        (headphone, index) => (
+          console.log(headphone.image.product),
+          (
+            <div
+              className={`index ${index === 1 ? "reverse-flex" : ""}`}
+              key={index}
+            >
+              <div className="upper-components">
+                <img
+                  src={headphone.image.product}
+                  // src={headphoneImg}
+                  alt="components"
+                  className="upperImgs"
+                />
+
+                <div className="upper-details">
+                  <h3 className="new-product">NEW PRODUCT</h3>
+                  <h1 className="product-title">
+                    {headphone.shortName.toUpperCase()}
+                  </h1>
+                  <h1 className="product-title">
+                    {headphone.category.toUpperCase()}
+                  </h1>
+                  <p className="product-paragragh">{headphone.description}</p>
+                  <button className="product_view">See Product</button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      ))}
+          )
+        )
+        // console.log(headphone.image.product)
+      )}
     </div>
   );
 };
