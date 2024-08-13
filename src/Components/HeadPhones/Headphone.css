@@ -2,6 +2,10 @@
   background-color: white;
 }
 
+.headphone-content {
+  padding: 0 121px 50px 165px;
+}
+
 .reverse-flex .upper-components {
   flex-direction: row-reverse;
 }
