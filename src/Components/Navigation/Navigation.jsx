@@ -10,9 +10,15 @@ function Navigation(props) {
       <nav className="nav">
         <Logo />
         <div className="nav__nav-links">
-          <NavLink className="nav__nav-link" to="/">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "nav__nav-link active" : "nav__nav-link"
+            }
+            to="/"
+          >
             Home
           </NavLink>
+
           <NavLink className="nav__nav-link" to="/headphones">
             Headphones
           </NavLink>

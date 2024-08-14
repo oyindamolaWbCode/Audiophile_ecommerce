@@ -1,3 +1,7 @@
 .speaker_container {
   background-color: white;
 }
+
+.speaker-content {
+  padding: 0 121px 50px 165px;
+}
