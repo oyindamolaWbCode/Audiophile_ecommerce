@@ -6,8 +6,15 @@ import "./Earphones.css";
 import HeadphoneFeatures from "../../Data/product.json";
 import Cards from "../Cards/Cards";
 import AudioGear from "../AudioGear/AudioGear";
+import { useNavigate } from "react-router-dom";
 
 const Earphones = () => {
+  const navigate = useNavigate();
+
+  const SingleProduct = (id) => {
+    navigate(`/product/${id}?earphones`);
+  };
+
   return (
     <div className="earphone_container">
       <NavHeader centerIt="Earphones" />
@@ -37,7 +44,12 @@ const Earphones = () => {
                       {earphone.category.toUpperCase()}
                     </h1>
                     <p className="product-paragragh">{earphone.description}</p>
-                    <button className="product_view">See Product</button>
+                    <button
+                      onClick={() => SingleProduct(earphone.id)}
+                      className="product_view"
+                    >
+                      See Product
+                    </button>
                   </div>
                 </div>
               </div>

@@ -6,8 +6,14 @@ import speakerImg from "../../assets/Images/image-speaker-zx9 (1).png";
 import HeadphoneFeatures from "../../Data/product.json";
 import Cards from "../Cards/Cards";
 import AudioGear from "../AudioGear/AudioGear";
+import { useNavigate } from "react-router-dom";
 
 function Speakers(props) {
+  const navigate = useNavigate();
+
+  const SingleProduct = (id) => {
+    navigate(`/product/${id}?speakers`);
+  };
   return (
     <div className="speaker_container">
       <NavHeader centerIt="Speakers" />
@@ -37,7 +43,12 @@ function Speakers(props) {
                       {speaker.category.toUpperCase()}
                     </h1>
                     <p className="product-paragragh">{speaker.description}</p>
-                    <button className="product_view">See Product</button>
+                    <button
+                      onClick={() => SingleProduct(speaker.id)}
+                      className="product_view"
+                    >
+                      See Product
+                    </button>
                   </div>
                 </div>
               </div>

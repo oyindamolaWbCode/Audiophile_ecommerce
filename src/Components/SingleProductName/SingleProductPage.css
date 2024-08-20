@@ -1,0 +1,33 @@
+.single_product {
+  background-color: white;
+  padding: 50px 121px 50px 165px;
+}
+
+.product-in-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-details {
+  width: 45%;
+  padding-top: 80px;
+}
+
+.product {
+  width: 50%;
+}
+
+.product-title {
+  font-size: 3rem;
+  color: black;
+  text-transform: uppercase;
+}
+
+.new-product {
+  text-transform: uppercase;
+  color: #e5a35b;
+  font-weight: lighter;
+  letter-spacing: 0.56em;
+  margin-bottom: 1rem;
+}

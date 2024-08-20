@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Speakers from "./Components/Speaker/Speakers";
 import Headphones from "./Components/HeadPhones/Headphones";
 import Earphones from "./Components/Earphones/Earphones";
+import SingleProductPage from "./Components/SingleProductName/SingleProductPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
             <Route path="/productdetailpage" element={<ProductDetailPage />} />
             <Route path="/categorypage" element={<CategoryPage />} />
+            <Route path="/product/:id" element={<SingleProductPage />} />
           </Routes>
         </main>
         <footer>
